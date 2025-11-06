@@ -1,0 +1,16 @@
+Se recibio excel
+Se identificaron libros de interes
+se separaron en 3 excels diferentes
+se normalizaron a tener el nombre de columnas de antihipertensivos1:
+	
+	se mantuvieron las columnas Secuencia, Documento, Medicamento, Frecuencia, Dosis
+	TTratamiento, numOrden, cantidad, Nombres y apellidos de pacientes, Fecha de nacimiento, Sexo y 	FechaOrden
+	
+	se normalizaron los nombres de columna para que todos siguieran snake_case
+
+	Se calculo la edad de los pacientes, para fines de tener la posibilidad de hacer 	clasificaciones clinicas basadas en la edad
+
+Se utilizo un script de python para clasificar cada ocurrencia medica que involucrara alguno de los 7 grupos de interes, de acurdo a categorias de segregacion, y exportar los resultados a un csv limpio.  
+
+1.) Separar mg como mg columna aparte
+2.) Calcular la edad de los pacientes segun la fecha de nacimiento
