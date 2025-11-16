@@ -11,3 +11,6 @@ v1_registros_clasificados_por_medicamento_final.csv
 v2_Oof_registros_clasificados_por_medicamento_final.csv
 POC
 presentacion.ipybn
+exportToHTML
+dataset_final_para_modelado.csv
+dataset_longitudinal_ANONIMIZADO_v01.xlsx
